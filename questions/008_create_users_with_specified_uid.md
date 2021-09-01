@@ -4,11 +4,8 @@
 Create two users: ***john*** with uid/gid equal to 2000, password 12345678 and ***davis*** with uid/gid equal to 3000, password 87654321. 
 Make ***davis'*** account validity stopping in one month.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+ <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -54,3 +51,5 @@ make user not being able to log into the system or disable the user, rather than
 Trying to create user with already taken UID will result in an error.
  
 During user's creation with **useradd** command the structure of home direcotry is taken from ***/etc/skel*** folder. 
+
+</details>
