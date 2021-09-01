@@ -44,3 +44,5 @@ groupmems -g sysgrp -l
 ```
 su - sarah
 ```
+
+</details>
