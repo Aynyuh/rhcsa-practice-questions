@@ -5,11 +5,8 @@ PURE RHCSA8 QUESTION!
 ### Question:
 Configure **journald** to persist between reboots
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+ <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -26,3 +23,5 @@ and that's all. After reboot all logs will still be there.
 > (...)  
 > Storage= 
 >> Controls where to store journal data. ... If "persistent", data will be stored preferably on disk, i.e. below the /var/log/journal hierarchy (which is created if needed), with a fallback to /run/log/journal (which is created if needed), during early boot and if the disk is not writable. "auto" behaves like "persistent" if the /var/log/journal directory exists, and "volatile" otherwise (the existence of the directory controls the storage mode)."
+
+ </details>
