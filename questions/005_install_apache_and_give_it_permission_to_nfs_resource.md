@@ -4,7 +4,7 @@
 Install Apache and allow it to get documents from NFS mounted folder (**SELinux** part)
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary><b>Click to expand!</b></summary>
        
 ### Answer:
 
