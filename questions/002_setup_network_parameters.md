@@ -12,7 +12,7 @@ DNS server:   some.dns.to.be.used
 Interface:    eth0
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary><b>Click to expand!</b></summary>
  
 ### Answer:
 
