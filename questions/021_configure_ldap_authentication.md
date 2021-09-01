@@ -8,11 +8,8 @@ Bind with LDAP located on **ldap.server.com**
 directory (configured in different question)
 * all **LDAP** users have password **password** 
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -47,3 +44,5 @@ systemctl start SSSD
 getent passwd USERNAME
 ```
 and in the output You should be given information about the user.
+
+</details>
