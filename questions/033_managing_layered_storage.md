@@ -5,11 +5,8 @@ PURE RHCSA 8 QUESTION!
 ### Question:
 Create pool and filesystem for thin provisioning and snapshots.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+ <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -22,3 +19,5 @@ be rewriting this.
 
 * In my opinion, this objective was introduced to actually raise awareness of this tool. And for the time being, I do not expect heavy-metal-questions
  about it.
+ 
+ </details>
