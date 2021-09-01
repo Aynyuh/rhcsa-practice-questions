@@ -6,11 +6,8 @@ Download image of a web server.
 Run the web server in a container as a user-service on port 8080, sharing files from /home/user/webfiles.
 Ensure the web server is available across reboots.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -57,3 +54,5 @@ $ podman run -v <src>:<dst>:z <image>
 # firewall-cmd --add-port=8080/tcp --permanent
 # firewall-cmd --reload
 ```
+
+</details>
