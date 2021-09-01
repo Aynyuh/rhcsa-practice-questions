@@ -3,11 +3,8 @@
 ### Question:
 Configure Your system that it is **NTP** client of **classroom.example.com** 
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -49,3 +46,5 @@ chronyc sources -v
 ### Additional comment:
 
 Second parameter in the **chrony.conf** file (***iburst***) is the interval between requests. More in man pages.
+
+</details>
