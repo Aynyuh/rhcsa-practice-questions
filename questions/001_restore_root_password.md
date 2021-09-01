@@ -7,7 +7,7 @@ It can be preliminary task for starting Your exam. It is crucial to know this pr
 and log into the system.
 
 <details>
-  <summary>Click to expand!</summary>
+ <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
