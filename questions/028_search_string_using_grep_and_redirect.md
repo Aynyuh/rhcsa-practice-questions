@@ -3,11 +3,8 @@
 ### Question:
 Search the string **sarah** in the **/etc/passwd** file and save the output in **/root/lines**
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -17,3 +14,5 @@ Search the string **sarah** in the **/etc/passwd** file and save the output in *
 grep sarah /etc/passwd >> /root/lines
 cat /root/lines
 ```
+  
+</details>
