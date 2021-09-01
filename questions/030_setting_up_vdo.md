@@ -5,11 +5,8 @@ PURE RHCSA 8 QUESTION!
 ### Question:
 Apply **VDO** (Virtual Data Optimizer) to the block device.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -61,3 +58,5 @@ UUID=smething  /mount_point   FS_TYPE  _netdev,x-systemd.device-timeout=0,x-syst
 We require over **500MB** of RAM for every TB of storage to apply VDO.
 
 The commands to check status and size of VDOs are:  **vdo** and **vdostats**
+
+</details>
