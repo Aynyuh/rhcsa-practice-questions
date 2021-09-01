@@ -3,11 +3,8 @@
 ### Question:
 Set the default target to boot into **X Window level** (previously level 5).
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+ <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -36,3 +33,5 @@ Here is the list of all targets in **systemd**:
 
 
 Some time ago a file **/etc/inittab** was used to specify default system level however now it is deprecated and does not work. 
+
+</details>
