@@ -3,11 +3,8 @@
 ### Question:
 Add additional repository for YUM with name **my_custom_repo** which can be found via URL **http://local.repo/rhel7**
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+ <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -39,3 +36,5 @@ yum repolist | grep my_custom_repo
 * or other (which is more readable)
 yum-config-manager my_custom_repo 
 ```
+
+</details>
