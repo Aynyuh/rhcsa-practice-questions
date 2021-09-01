@@ -7,11 +7,8 @@ The user **andrew** should have read&write access to this file.
 User **susan** should not have any rights to this file.
 All other users (current or future) should have the ability to read this file.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -39,3 +36,5 @@ getfacl /var/tmp/fstab
 ```
 
 * By default all other users can read this file so this requirement is already met.
+
+</details>
