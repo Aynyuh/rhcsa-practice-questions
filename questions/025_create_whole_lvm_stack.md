@@ -5,11 +5,8 @@ Create a new physical volume with volume group in the name of **datacontainer**,
 Also create new logical volume with name **datacopy** with the size of  **50 extents** and filesystem **vfat** mounted
 under **/datasource**. 
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -79,3 +76,5 @@ UUID=UUUID_IDENTIFIER_COPIED_FROM_BLKID  /datasource vfat  defaults   0 0
 ```
 mount -a
 ```
+
+</details>
