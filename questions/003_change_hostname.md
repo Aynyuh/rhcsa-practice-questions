@@ -3,11 +3,8 @@
 ### Question:
 Change hostname of the system
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary>Click to expand!</summary>
 
 ### Answer:
 
@@ -32,3 +29,5 @@ nmcli general hostname SOME_NAME
 
 Of course hostname is being shown near prompt sign in the console, however there is also a couple of ways of obtaining it
 is using ***hostnamectl*** which besides info about hostname gives a lot of other useful information
+
+</details>
