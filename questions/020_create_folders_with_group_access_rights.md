@@ -6,11 +6,8 @@ Create a collaborative directory **/redhat/sysgrp** with following properties:
 * members of **sysgrp** should have full access to this folder but no other user
 * files created in this folder have by default group access to **sysgrp** 
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -48,3 +45,5 @@ ls -ltr /redhat/sysgrp
 ### Additional comment:
 
 Even if the user creating file in the directory is **root** it will still have group owner of **sysgrp**.
+
+</details>
