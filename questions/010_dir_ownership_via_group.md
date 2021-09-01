@@ -6,11 +6,8 @@ User's creation was covered by question 008
 Create a directory named ***/common***. Allow **john** and **davis** to share documents in the ***/common*** directory using a group called **team**.
 Both of them can read, write and remove documents from the other in this directory but any user not member of the group can’t.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -54,3 +51,4 @@ usermod -aG team davis
 
 It is possible to change user's primary group for the current session using **newgrp** command.
 
+</details>
