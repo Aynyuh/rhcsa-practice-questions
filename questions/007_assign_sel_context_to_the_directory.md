@@ -4,7 +4,7 @@
 Assign the same **SELinux** contexts used by the home directories to the **/xfs** directory permanently.
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
