@@ -3,11 +3,8 @@
 ### Question:
 Extend the existing ***xfs*** file system to a total size of ***200MB*** and add a label called ***myFS***.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click here to expand!</b></summary>
 
 ### Answer:
 
@@ -32,3 +29,5 @@ lvextend –size 200M -r /dev/VOLUME_GROUP/LOGICAL_VOLUME
 # xfs_admin -L "myFS" /dev/VOLUME_GROUP/LOGICAL_VOLUME
 # mount /LINK/TO/FILESYSTEM/MOUNT/POINT
 ```
+
+</details>
