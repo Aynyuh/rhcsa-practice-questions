@@ -3,11 +3,8 @@
 ### Question:
 Create a ***xfs*** file system on a new logical volume of ***100MB*** called ***lv_xfs***. Mount it permanently with uuid under **/xfs**.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -56,3 +53,5 @@ and You do not confuse them.
 When editing **fstab** file by hand we got much more control over mount options. Also pay attention to the fact that with provided solution we use '1 2' values for 
 checking mount point integrity - the first one indicates how often the partition will be backed by **dump** program, the second one points to the level of integrity check when
 mounting (0 means no check, 1 is applied only to the root partition).
+  
+</details>
