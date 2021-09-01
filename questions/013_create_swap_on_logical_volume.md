@@ -3,11 +3,8 @@
 ### Question:
 Create a logical volume of **200MB** called **lv_swap2** and add it permanently to the current swap space.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -45,3 +42,5 @@ which will show swap/memory statistics.
 
 Both commands **mkswap** and **swapon** have parameters like **-L** and **-U** so it is possible to give these commands not only the
 path (to the file or partition) but label or UUID.
+  
+</details>
