@@ -3,11 +3,8 @@
 ### Question:
 Enable SELinux in enforcing mode
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary>Click to expand!</summary>
 
 ### Answer:
 
@@ -16,3 +13,5 @@ check what is the status of **SELinux**. If You see **Disabled** then edit the f
 proper line change **disabled** to **enforcing**.
 * Reboot the system
 * Again check **SELinux** status using command **getenforce**
+  
+</details>
