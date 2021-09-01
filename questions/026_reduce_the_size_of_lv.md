@@ -3,11 +3,8 @@
 ### Question:
 Reduce the size of existing **logical volume** by **400MB**.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -36,3 +33,5 @@ lvreduce -L -400M /dev/LINK_TO_LVM
 mount -a
 lvdisplay
 ```
+  
+</details>
