@@ -11,11 +11,8 @@ Configure **autofs** to automount the home directories of LDAP users.
 * while You are able to login as any of the users **ldapuser1-20** the only home directory You are able to access is **ldapuserX**
  
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -65,3 +62,5 @@ pwd  # it should be /home/guests/ldapuser5
 **autofs** is working in user space - and mounting network shares via **/etc/fstab** is using root context
 
 Name of the config file in **/etc/auto.master.d** is not important - the only important thing is that is must have **.autofs** suffix
+
+</details>
