@@ -3,11 +3,8 @@
 ### Question:
 Assign the same **SELinux** contexts used by the home directories to the **/xfs** directory permanently.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary>Click to expand!</summary>
 
 ### Answer:
 
@@ -46,3 +43,5 @@ semanage fcontext -a -t user_home_dir_t "/xfs(/.*)?"
 ```
 restorecon -R /xfs
 ```
+ 
+</details>
