@@ -11,12 +11,9 @@ DNS server:   some.dns.to.be.used
 
 Interface:    eth0
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
+<details>
+  <summary>Click to expand!</summary>
+ 
 ### Answer:
 
 * Issue following command (as one liner) to set connection data (we assume type is ethernet connection as used interface is called ***eth0***):
@@ -50,3 +47,5 @@ nmcli conn show --active      # to check if the connection is up
 
 It is possible to edit existing connection using **nmtui** tool which can be easier. 
 Also when using GUI there is also graphical interface for it.
+
+</details>
