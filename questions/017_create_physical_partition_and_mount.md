@@ -3,11 +3,8 @@
 ### Question:
 Create new physical partition with 100MB size and mount it under **/meet**
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+ <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -89,3 +86,4 @@ if everything is ok You should not be given any kind of error message.
 
 There are shortcut commands for creating filesystems, eg. **mkfs.ext4**
 
+</details>
