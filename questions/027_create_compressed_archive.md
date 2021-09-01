@@ -3,11 +3,8 @@
 ### Question:
 Create the archive file **/root/local.tgz** for **/usr/local** compressed by **gzip**.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -16,3 +13,5 @@ Create the archive file **/root/local.tgz** for **/usr/local** compressed by **g
 ```
 tar -cvzf /root/local.tgz /usr/local
 ```
+  
+</details>
