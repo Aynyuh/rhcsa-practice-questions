@@ -5,11 +5,8 @@ User's creation was covered by question 008
 ### Question:
 Allow ***davis*** (and only ***davis***) to get full access to ***john's*** home directory.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -54,3 +51,5 @@ drwxrwx---+  7 davis   davis    176 Jun 27 16:23 john
 For the partition to be able to use **ACLs** it must be mounted with ***acl mount*** property
 
 Removal of **ACLs** is achieved also via ***setfacl*** command but with proper flag (see man pages for examples)
+
+</details>
