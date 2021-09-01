@@ -4,7 +4,7 @@
 Change hostname of the system
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
