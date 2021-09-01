@@ -3,11 +3,8 @@
 ### Question:
 Find All Files in ***/etc*** (not subdirectories) that where modified more than 180 days ago.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -19,3 +16,5 @@ It is worthwhile to browse through man pages of that command.
 ```
 find /etc -type f -maxdepth 1 -mtime +180
 ```
+
+</details>
