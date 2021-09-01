@@ -3,11 +3,8 @@
 ### Question:
 Create a cron job running as ***root***, starting at ***11PM every day*** and writing a report on daily system resource consumption in the **/var/log/consumption.log** file.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -42,3 +39,5 @@ crontab -e
 The log file does not need to exist - it will be created automatically.
 Of course **root** user can edit crontab of every user with flag **-u** specifying user name.
 It is worth remembering that there are **/etc/cron.allow** and **/etc/cron.deny**. 
+
+</details>
