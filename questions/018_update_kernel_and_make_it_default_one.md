@@ -5,11 +5,8 @@ Install the kernel from the source http://some.link/to/kernel. The following cri
 * installed kernel will be the default one when system boots
 * previous kernel is still available
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -40,9 +37,4 @@ grubby --set-default-index INDEX_OF_NEW_KERNEL
 
 and reboot the system to see if the changes apply
 
-
-
-
-
-
-
+</details>
