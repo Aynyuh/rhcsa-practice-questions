@@ -3,12 +3,9 @@
 ### Question:
 Install Apache and allow it to get documents from NFS mounted folder (**SELinux** part)
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
+<details>
+  <summary>Click to expand!</summary>
+       
 ### Answer:
 
 * First step is to install **Apache** using **YUM**. It does not require special treatment - just type the command ***yum install -y httpd***
@@ -64,3 +61,5 @@ After executing setsebool -P httpd_use_nfs 1 Apache will be allowed to get docum
 **Apache** knowledge is not in the requirements for the exam. However it is very popular server and also serves additional purposes here - 
 it gives an opportunity to use **yum**, configure **firewall** with **systemd service** and finally configure **SELinux**.
 <br />
+
+</details>
