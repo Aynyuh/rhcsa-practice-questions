@@ -5,11 +5,8 @@ The description of this question on cert-depot is not clear. However it is worth
 ### Question:
 Configure a virtual console.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary><b>Click to expand!</b></summary>
 
 ### Answer:
 
@@ -24,3 +21,5 @@ grubby –update-kernel=ALL –args="console=ttyS0"
 ### Additional comment:
 
 Kernels are not updated but installed as new ones. By default **4** previous kernels are kept on the system.
+  
+</details>
