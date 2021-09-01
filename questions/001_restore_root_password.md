@@ -6,11 +6,8 @@ It can be preliminary task for starting Your exam. It is crucial to know this pr
  You do not know the root password but You have physical access to the machine. Create new root password
 and log into the system.
 
-***
-(scroll down for an answer)
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<details>
+  <summary>Click to expand!</summary>
 
 ### Answer:
 
@@ -44,3 +41,5 @@ touch /.autorelabel
 
 It is possible to edit startup parameters of the kernel from the command line and make it persistent. Just edit **/etc/default/grub**
 file and after that make sure to run ***grub2-mkconfig > /boot/grub2/grub.cfg*** in order to apply the changes (for old **BIOS** config). For the **UEFI** computers the final file is **/boot/efi/EFI/redhat/grub.cfg**.
+
+</details>
